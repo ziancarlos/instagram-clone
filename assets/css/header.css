@@ -1,0 +1,122 @@
+header {
+  background-color: white;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 1px solid rgb(239, 239, 239);
+
+  z-index: 1;
+}
+
+header > .container {
+  padding: 0px 20px;
+
+  width: 975px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  font-size: 29px;
+
+  padding-right: 24px;
+
+  margin-right: 18px;
+}
+
+.header-middle {
+  display: flex;
+  align-items: center;
+}
+
+.search-btn {
+  width: 36px;
+  height: 36px;
+
+  margin-right: -1px;
+  padding-left: 16px;
+
+  border: none;
+
+  background-color: rgb(239, 239, 239);
+
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.search-btn > span {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(142, 142, 142);
+}
+
+.input-bar {
+  width: 200px;
+  height: 36px;
+
+  box-sizing: border-box;
+
+  border: none;
+
+  padding-right: 16px;
+  padding-left: 12px;
+
+  background-color: rgb(239, 239, 239);
+  color: rgb(142, 142, 142);
+
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+  font-weight: 300;
+  font-size: 16px;
+  font-family: "Poppins";
+}
+
+.input-bar::placeholder {
+  font-weight: 300;
+  font-size: 16px;
+  font-family: "Poppins";
+}
+
+.header-right {
+  padding-left: 24px;
+
+  margin-left: 16px;
+}
+
+.log-in-btn {
+  background-color: rgb(0, 149, 246);
+  color: white;
+
+  padding: 6px 9px;
+
+  border: none;
+  border-radius: 4px;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sign-up-btn {
+  color: rgb(0, 149, 246);
+  background-color: transparent;
+
+  padding: 6px 9px;
+
+  border: none;
+  border-radius: 4px;
+
+  font-size: 14px;
+  font-weight: 600;
+}

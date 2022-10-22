@@ -1,0 +1,172 @@
+.container > .profile {
+  margin-bottom: 44px;
+
+  display: flex;
+  align-items: center;
+}
+
+.profile > .left {
+  margin-right: 30px;
+  width: 291px;
+
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-pic {
+  width: 150px;
+  height: 150px;
+
+  border-radius: 50%;
+
+  border: 1px solid grey;
+
+  object-fit: fill;
+}
+
+.stories {
+  width: 158px;
+  height: 158px;
+  border-radius: 50%;
+  border: 3px solid rgb(255, 0, 170);
+
+  position: absolute;
+  top: -6px;
+  left: 63.5px;
+}
+
+.profile > .right {
+  flex: 1;
+}
+
+.profile-top {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  margin-bottom: 20px;
+}
+
+.username {
+  color: rgb(38, 38, 38);
+
+  font-weight: 300;
+  font-size: 28px;
+  font-family: "Poppins";
+
+  margin-right: 26px;
+}
+
+.follow-up-btn {
+  margin-left: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.msg-btn {
+  color: rgb(38, 38, 38);
+  background-color: transparent;
+
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Poppins";
+
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 4px;
+
+  padding: 5px 9px;
+}
+
+.follow-btn {
+  color: rgb(38, 38, 38);
+  background-color: transparent;
+
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Poppins";
+
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 4px;
+
+  padding: 5px 25px;
+
+  margin-left: 8px;
+}
+
+.more-btn {
+  background-color: transparent;
+  border: none;
+
+  padding: 8px;
+}
+
+.more-btn > i {
+  color: rgb(38, 38, 38);
+
+  font-family: "Poppins" !important;
+  font-size: 32px !important;
+  font-weight: 400 !important;
+}
+
+.profile-middle {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  margin-bottom: 20px;
+}
+
+.profile-middle > div {
+  margin-right: 40px;
+
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: 16px;
+
+  color: rgb(38, 38, 38);
+}
+
+.profile-middle > div > span {
+  margin-left: 1px;
+
+  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 13px;
+
+  color: rgb(38, 38, 38);
+}
+
+.name {
+  color: rgb(38, 38, 38);
+
+  font-weight: 500;
+  font-family: "Poppins";
+  font-size: 16px;
+
+  margin-bottom: 7px;
+}
+
+.bio {
+  color: rgb(38, 38, 38);
+
+  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 16px;
+
+  margin-bottom: 7px;
+}
+
+.link {
+  color: rgb(0, 55, 107);
+
+  font-weight: 500;
+  font-family: "Poppins";
+  font-size: 15px;
+
+  cursor: pointer;
+}

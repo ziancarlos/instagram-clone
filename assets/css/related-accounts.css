@@ -1,0 +1,113 @@
+.related-accounts {
+  background-color: white;
+
+  padding: 20px 0px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.related-accounts > .top {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 12px;
+}
+
+.related-accounts > .top > h2 {
+  flex: 1;
+
+  color: rgb(142, 142, 142);
+
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+
+.related-accounts > .top > a {
+  width: 48px;
+
+  color: rgb(0, 149, 246);
+
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins";
+
+  text-decoration: none;
+}
+
+.related-accounts > .bottom {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.single-account {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 20px;
+
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 4px;
+
+  position: relative;
+}
+
+.single-account > img {
+  width: 54px;
+  height: 54px;
+
+  margin-bottom: 20px;
+
+  border-radius: 50%;
+}
+
+.single-account-username {
+  margin-bottom: 10px;
+  color: rgb(38, 38, 38);
+
+  font-weight: 500;
+  font-family: "Poppins";
+  font-size: 14px;
+}
+
+.single-account-name {
+  margin-bottom: 4px;
+  color: rgb(142, 142, 142);
+
+  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 15px;
+
+  margin-bottom: 12px;
+}
+
+.single-account > button {
+  padding: 5px 9px;
+  border: 1px solid rgb(142, 142, 142);
+
+  width: 73px;
+
+  color: rgb(38, 38, 38);
+
+  font-size: 12px;
+  font-weight: 600;
+
+  border-radius: 4px;
+
+  background-color: transparent;
+}
+
+.single-account > p {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+
+  font-size: 14px;
+
+  color: rgb(142, 142, 142);
+}
